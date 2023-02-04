@@ -1,0 +1,5 @@
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Release\net6.0-windows\publish\ChilliScreenSaver.exe
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Release\net6.0-windows\publish\ChilliScreenSaver.dll
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Release\net6.0-windows\publish\ChilliScreenSaver.deps.json
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Release\net6.0-windows\publish\ChilliScreenSaver.runtimeconfig.json
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Release\net6.0-windows\publish\ChilliScreenSaver.pdb

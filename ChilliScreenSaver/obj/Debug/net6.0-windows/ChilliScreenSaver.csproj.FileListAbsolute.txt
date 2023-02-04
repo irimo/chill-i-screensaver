@@ -1,0 +1,15 @@
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Debug\net6.0-windows\ChilliScreenSaver.exe
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Debug\net6.0-windows\ChilliScreenSaver.deps.json
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Debug\net6.0-windows\ChilliScreenSaver.runtimeconfig.json
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Debug\net6.0-windows\ChilliScreenSaver.dll
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\bin\Debug\net6.0-windows\ChilliScreenSaver.pdb
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.csproj.AssemblyReference.cache
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.AssemblyInfoInputs.cache
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.AssemblyInfo.cs
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.csproj.CoreCompileInputs.cache
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.dll
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\refint\ChilliScreenSaver.dll
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.pdb
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ChilliScreenSaver.genruntimeconfig.cache
+C:\Users\irimo\Workspace\chill-i-screensaver\ChilliScreenSaver\obj\Debug\net6.0-windows\ref\ChilliScreenSaver.dll
