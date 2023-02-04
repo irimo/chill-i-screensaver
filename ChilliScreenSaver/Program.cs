@@ -6,6 +6,7 @@ namespace ChilliScreenSaver
 
     using System.Windows.Forms;
     using System.IO;
+    using static System.Windows.Forms.DataFormats;
 
 
     internal static class Program
@@ -146,10 +147,64 @@ namespace ChilliScreenSaver
             graphics.CopyFromScreen(new Point(0, 0), new Point(0, 0), bitmap.Size);
             // グラフィックスの解放
             graphics.Dispose();
-
+            Console.WriteLine("capture success");
+            try
+            {
+                Color[,] pixelData;
+                int width, height;
+                //追記：元画像のフォーマット
+                //                ImageFormat format;
+                //１．指定したパスから画像を読み込む
+                //画像サイズを取得
+                width = bitmap.Width;
+                height = bitmap.Height;
+                //追記：元画像のフォーマットを保持
+//                    format = img.RawFormat;
+                //ピクセルデータを取得
+                pixelData = new Color[width, height];
+                for (int y = 0; y < height; y++)
+                {
+                    for (int x = 0; x < width; x++)
+                    {
+                        pixelData[x, y] = bitmap.GetPixel(x, y);
+                    }
+                }
+                //２．ピクセルデータに手を加えて新しいピクセルデータを生成
+                Color[,] newPixelData = new Color[width, height];
+                for (int y = 0; y < height; y++)
+                {
+                    for (int x = 0; x < width; x++)
+                    {
+                        Color originalColor = pixelData[x, y];
+                        //グレースケール化
+                        int brightness = (int)(originalColor.GetBrightness() * 255);
+                        Color newColor = Color.FromArgb(originalColor.A, brightness, brightness, brightness);
+                        newPixelData[x, y] = newColor;
+                    }
+                }
+                //３．新しいビットマップを生成して保存
+                using (Bitmap saveImg = new Bitmap(width, height))
+                {
+                    //新しいピクセルデータからビットマップを生成
+                    for (int y = 0; y < height; y++)
+                    {
+                        for (int x = 0; x < width; x++)
+                        {
+                            saveImg.SetPixel(x, y, newPixelData[x, y]);
+                        }
+                    }
+                    this.bg = saveImg;
+                    Console.WriteLine("capture compile success");
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("error!");
+                Console.WriteLine(e.ToString());
+            }
 
             //表示
-            this.bg = bitmap;
+//            this.bg = bitmap;
 //            pictureBox.Image = this.bg;
 //            this.Opacity = 1.0;
 
